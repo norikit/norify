@@ -1,25 +1,38 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/status-early%20development-orange" alt="Status: early development"/>
-  <img src="https://img.shields.io/badge/ecosystem-norikit-32C572" alt="Ecosystem: norikit"/>
-  <img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="License: AGPL-3.0"/>
-</p>
-
-<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg"/>
-    <img src="assets/hero-light.svg" alt="norify" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/norikit/norikit/main/assets/norify/hero/dark_theme.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/norikit/norikit/main/assets/norify/hero/light_theme.svg"/>
+    <img src="https://raw.githubusercontent.com/norikit/norikit/main/assets/norify/hero/light_theme.svg" alt="norify" width="100%"/>
   </picture>
 </p>
 
 <p align="center">
-  A notification engine for the <strong>norikit</strong> ecosystem.<br/>
-  It handles notification events and integrates them with the rest of the tooling.
+  <strong>norify</strong> — a notification engine for the ecosystem.<br/>
+  Part of the <strong>norikit</strong> ecosystem.
 </p>
 
 > [!NOTE]
 > Work in progress. norify is in early development and not yet usable.
 
+## About
+
+A [**norikit**](https://github.com/norikit) project — part of a suite of native macOS
+desktop-customization tools, built to be fast and visually cohesive.
+
+<!-- Fill in as the project takes shape: why it exists, what it does, how it's built. -->
+
+## Documentation
+
+Design knowledge lives in the **[`ai-docs/`](ai-docs/)** knowledge base. Active work is
+tracked under **[`tasks/`](tasks/)**.
+
+> **Working in this repo with an AI agent?** Start at [`CLAUDE.md`](CLAUDE.md).
+
+## Building
+
+Requires macOS 13+.
+
+
 ## License
 
-norify is licensed under the [GNU AGPL-3.0](LICENSE).
+[AGPL-3.0](LICENSE).
